@@ -97,4 +97,5 @@ urllib3
 wcwidth
 Werkzeug
 XlsxWriter==3.1.4
+os
 gunicorn

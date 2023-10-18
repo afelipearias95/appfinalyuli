@@ -25,7 +25,7 @@ import dash_table
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-import os
+#import os
 from utils import (
     get_database_connection,
     obtener_numero_de_pozos,

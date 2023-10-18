@@ -25,6 +25,7 @@ import dash_table
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+import os
 from utils import (
     get_database_connection,
     obtener_numero_de_pozos,
@@ -38,7 +39,7 @@ external_stylesheets = [
 ]
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
-DISPLAY=:0 python
+os.environ['DISPLAY'] = ':0'
 
 # ---------------------------------------------------------------------------------------------------------------------------------------------------
 # SECCION DE CONEXIONES Y CONSULTAS MYSQL

@@ -59,7 +59,7 @@ query = """SELECT
     SUM(WCUT) AS Suma_WCUT,
     SUM(BWPD) AS Suma_BWPD,
     SUM(BOPD) AS Suma_BOPD
-FROM Critical_variables_updated
+FROM critical_variables_updated
 GROUP BY Año, Mes
 """
 

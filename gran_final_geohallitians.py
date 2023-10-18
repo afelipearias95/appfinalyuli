@@ -806,7 +806,7 @@ def tabla_2_critical():
 
 def tabla_3_critical():
     # Cargar datos desde el archivo Excel
-    df = pd.read_excel("anomaliespi.xlsx")
+    df = pd.read_excel("assets/anomaliespi.xlsx")
 
     # Seleccionar las columnas que deseas mostrar
     columns_to_display = ['UWI', 'Date', 'P_Intake', 'T_Intake', 'T_Motor', 'P_Discharge', 'Run_Status']

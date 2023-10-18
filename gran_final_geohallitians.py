@@ -136,7 +136,7 @@ ON a. Well_Id = b. Well_Id
 GROUP BY UWI, Mes, Año
 """
 
-query_tarjetas_var_2 = "SELECT Caudal, WOR FROM Critical_Variables_Updated"
+query_tarjetas_var_2 = "SELECT Caudal, WOR FROM critical_variables_updated"
 query_tarjetas_var_3 = "SELECT Hours, Oil, Water, Gas FROM data_diaria_volumetrica_updated"
 
 querymap = "SELECT UWI, Geo_latitude, Geo_longitude, Wellhead_depth, Water_depth FROM wells_master_updated"
